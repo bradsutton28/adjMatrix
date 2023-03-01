@@ -1,0 +1,104 @@
+Added node A to stack..
+ New Stack: ['A']Added node B to stack..
+ New Stack: ['A', 'B']Added node J to stack..
+ New Stack: ['A', 'B', 'J']Added node K to stack..
+ New Stack: ['A', 'B', 'J', 'K']Added node N to stack..
+ New Stack: ['A', 'B', 'J', 'K', 'N']Added node O to stack..
+ New Stack: ['A', 'B', 'J', 'K', 'N', 'O']Added node Q to stack..
+ New Stack: ['A', 'B', 'J', 'K', 'N', 'O', 'Q']Added node R to stack..
+ New Stack: ['A', 'B', 'J', 'K', 'N', 'O', 'Q', 'R']Removing R from stack as it no longer has anymore neighbors that aren't visited already 
+ Current stack: ['A', 'B', 'J', 'K', 'N', 'O', 'Q']
+Current List of Visited Nodes in order: ['A', 'B', 'J', 'K', 'N', 'O', 'Q', 'R']
+Added node U to stack..
+ New Stack: ['A', 'B', 'J', 'K', 'N', 'O', 'Q', 'U']Removing U from stack as it no longer has anymore neighbors that aren't visited already 
+ Current stack: ['A', 'B', 'J', 'K', 'N', 'O', 'Q']
+Current List of Visited Nodes in order: ['A', 'B', 'J', 'K', 'N', 'O', 'Q', 'R', 'U']
+Added node V to stack..
+ New Stack: ['A', 'B', 'J', 'K', 'N', 'O', 'Q', 'V']Added node W to stack..
+ New Stack: ['A', 'B', 'J', 'K', 'N', 'O', 'Q', 'V', 'W']Added node X to stack..
+ New Stack: ['A', 'B', 'J', 'K', 'N', 'O', 'Q', 'V', 'W', 'X']Added node S to stack..
+ New Stack: ['A', 'B', 'J', 'K', 'N', 'O', 'Q', 'V', 'W', 'X', 'S']Added node T to stack..
+ New Stack: ['A', 'B', 'J', 'K', 'N', 'O', 'Q', 'V', 'W', 'X', 'S', 'T']Added node P to stack..
+ New Stack: ['A', 'B', 'J', 'K', 'N', 'O', 'Q', 'V', 'W', 'X', 'S', 'T', 'P']Added node L to stack..
+ New Stack: ['A', 'B', 'J', 'K', 'N', 'O', 'Q', 'V', 'W', 'X', 'S', 'T', 'P', 'L']Removing L from stack as it no longer has anymore neighbors that aren't visited already 
+ Current stack: ['A', 'B', 'J', 'K', 'N', 'O', 'Q', 'V', 'W', 'X', 'S', 'T', 'P']
+Current List of Visited Nodes in order: ['A', 'B', 'J', 'K', 'N', 'O', 'Q', 'R', 'U', 'V', 'W', 'X', 'S', 'T', 'P', 'L']
+Removing P from stack as it no longer has anymore neighbors that aren't visited already 
+ Current stack: ['A', 'B', 'J', 'K', 'N', 'O', 'Q', 'V', 'W', 'X', 'S', 'T']
+Current List of Visited Nodes in order: ['A', 'B', 'J', 'K', 'N', 'O', 'Q', 'R', 'U', 'V', 'W', 'X', 'S', 'T', 'P', 'L']
+Removing T from stack as it no longer has anymore neighbors that aren't visited already 
+ Current stack: ['A', 'B', 'J', 'K', 'N', 'O', 'Q', 'V', 'W', 'X', 'S']
+Current List of Visited Nodes in order: ['A', 'B', 'J', 'K', 'N', 'O', 'Q', 'R', 'U', 'V', 'W', 'X', 'S', 'T', 'P', 'L']
+Removing S from stack as it no longer has anymore neighbors that aren't visited already 
+ Current stack: ['A', 'B', 'J', 'K', 'N', 'O', 'Q', 'V', 'W', 'X']
+Current List of Visited Nodes in order: ['A', 'B', 'J', 'K', 'N', 'O', 'Q', 'R', 'U', 'V', 'W', 'X', 'S', 'T', 'P', 'L']
+Removing X from stack as it no longer has anymore neighbors that aren't visited already 
+ Current stack: ['A', 'B', 'J', 'K', 'N', 'O', 'Q', 'V', 'W']
+Current List of Visited Nodes in order: ['A', 'B', 'J', 'K', 'N', 'O', 'Q', 'R', 'U', 'V', 'W', 'X', 'S', 'T', 'P', 'L']
+Added node Z to stack..
+ New Stack: ['A', 'B', 'J', 'K', 'N', 'O', 'Q', 'V', 'W', 'Z']Removing Z from stack as it no longer has anymore neighbors that aren't visited already 
+ Current stack: ['A', 'B', 'J', 'K', 'N', 'O', 'Q', 'V', 'W']
+Current List of Visited Nodes in order: ['A', 'B', 'J', 'K', 'N', 'O', 'Q', 'R', 'U', 'V', 'W', 'X', 'S', 'T', 'P', 'L', 'Z']
+Removing W from stack as it no longer has anymore neighbors that aren't visited already 
+ Current stack: ['A', 'B', 'J', 'K', 'N', 'O', 'Q', 'V']
+Current List of Visited Nodes in order: ['A', 'B', 'J', 'K', 'N', 'O', 'Q', 'R', 'U', 'V', 'W', 'X', 'S', 'T', 'P', 'L', 'Z']
+Added node Y to stack..
+ New Stack: ['A', 'B', 'J', 'K', 'N', 'O', 'Q', 'V', 'Y']Removing Y from stack as it no longer has anymore neighbors that aren't visited already 
+ Current stack: ['A', 'B', 'J', 'K', 'N', 'O', 'Q', 'V']
+Current List of Visited Nodes in order: ['A', 'B', 'J', 'K', 'N', 'O', 'Q', 'R', 'U', 'V', 'W', 'X', 'S', 'T', 'P', 'L', 'Z', 'Y']
+Removing V from stack as it no longer has anymore neighbors that aren't visited already 
+ Current stack: ['A', 'B', 'J', 'K', 'N', 'O', 'Q']
+Current List of Visited Nodes in order: ['A', 'B', 'J', 'K', 'N', 'O', 'Q', 'R', 'U', 'V', 'W', 'X', 'S', 'T', 'P', 'L', 'Z', 'Y']
+Removing Q from stack as it no longer has anymore neighbors that aren't visited already 
+ Current stack: ['A', 'B', 'J', 'K', 'N', 'O']
+Current List of Visited Nodes in order: ['A', 'B', 'J', 'K', 'N', 'O', 'Q', 'R', 'U', 'V', 'W', 'X', 'S', 'T', 'P', 'L', 'Z', 'Y']
+Removing O from stack as it no longer has anymore neighbors that aren't visited already 
+ Current stack: ['A', 'B', 'J', 'K', 'N']
+Current List of Visited Nodes in order: ['A', 'B', 'J', 'K', 'N', 'O', 'Q', 'R', 'U', 'V', 'W', 'X', 'S', 'T', 'P', 'L', 'Z', 'Y']
+Removing N from stack as it no longer has anymore neighbors that aren't visited already 
+ Current stack: ['A', 'B', 'J', 'K']
+Current List of Visited Nodes in order: ['A', 'B', 'J', 'K', 'N', 'O', 'Q', 'R', 'U', 'V', 'W', 'X', 'S', 'T', 'P', 'L', 'Z', 'Y']
+Removing K from stack as it no longer has anymore neighbors that aren't visited already 
+ Current stack: ['A', 'B', 'J']
+Current List of Visited Nodes in order: ['A', 'B', 'J', 'K', 'N', 'O', 'Q', 'R', 'U', 'V', 'W', 'X', 'S', 'T', 'P', 'L', 'Z', 'Y']
+Removing J from stack as it no longer has anymore neighbors that aren't visited already 
+ Current stack: ['A', 'B']
+Current List of Visited Nodes in order: ['A', 'B', 'J', 'K', 'N', 'O', 'Q', 'R', 'U', 'V', 'W', 'X', 'S', 'T', 'P', 'L', 'Z', 'Y']
+Removing B from stack as it no longer has anymore neighbors that aren't visited already 
+ Current stack: ['A']
+Current List of Visited Nodes in order: ['A', 'B', 'J', 'K', 'N', 'O', 'Q', 'R', 'U', 'V', 'W', 'X', 'S', 'T', 'P', 'L', 'Z', 'Y']
+Added node F to stack..
+ New Stack: ['A', 'F']Added node D to stack..
+ New Stack: ['A', 'F', 'D']Removing D from stack as it no longer has anymore neighbors that aren't visited already 
+ Current stack: ['A', 'F']
+Current List of Visited Nodes in order: ['A', 'B', 'J', 'K', 'N', 'O', 'Q', 'R', 'U', 'V', 'W', 'X', 'S', 'T', 'P', 'L', 'Z', 'Y', 'F', 'D']
+Added node H to stack..
+ New Stack: ['A', 'F', 'H']Added node G to stack..
+ New Stack: ['A', 'F', 'H', 'G']Added node I to stack..
+ New Stack: ['A', 'F', 'H', 'G', 'I']Added node E to stack..
+ New Stack: ['A', 'F', 'H', 'G', 'I', 'E']Added node C to stack..
+ New Stack: ['A', 'F', 'H', 'G', 'I', 'E', 'C']Removing C from stack as it no longer has anymore neighbors that aren't visited already 
+ Current stack: ['A', 'F', 'H', 'G', 'I', 'E']
+Current List of Visited Nodes in order: ['A', 'B', 'J', 'K', 'N', 'O', 'Q', 'R', 'U', 'V', 'W', 'X', 'S', 'T', 'P', 'L', 'Z', 'Y', 'F', 'D', 'H', 'G', 'I', 'E', 'C']
+Removing E from stack as it no longer has anymore neighbors that aren't visited already 
+ Current stack: ['A', 'F', 'H', 'G', 'I']
+Current List of Visited Nodes in order: ['A', 'B', 'J', 'K', 'N', 'O', 'Q', 'R', 'U', 'V', 'W', 'X', 'S', 'T', 'P', 'L', 'Z', 'Y', 'F', 'D', 'H', 'G', 'I', 'E', 'C']
+Added node M to stack..
+ New Stack: ['A', 'F', 'H', 'G', 'I', 'M']Removing M from stack as it no longer has anymore neighbors that aren't visited already 
+ Current stack: ['A', 'F', 'H', 'G', 'I']
+Current List of Visited Nodes in order: ['A', 'B', 'J', 'K', 'N', 'O', 'Q', 'R', 'U', 'V', 'W', 'X', 'S', 'T', 'P', 'L', 'Z', 'Y', 'F', 'D', 'H', 'G', 'I', 'E', 'C', 'M']
+Removing I from stack as it no longer has anymore neighbors that aren't visited already 
+ Current stack: ['A', 'F', 'H', 'G']
+Current List of Visited Nodes in order: ['A', 'B', 'J', 'K', 'N', 'O', 'Q', 'R', 'U', 'V', 'W', 'X', 'S', 'T', 'P', 'L', 'Z', 'Y', 'F', 'D', 'H', 'G', 'I', 'E', 'C', 'M']
+Removing G from stack as it no longer has anymore neighbors that aren't visited already 
+ Current stack: ['A', 'F', 'H']
+Current List of Visited Nodes in order: ['A', 'B', 'J', 'K', 'N', 'O', 'Q', 'R', 'U', 'V', 'W', 'X', 'S', 'T', 'P', 'L', 'Z', 'Y', 'F', 'D', 'H', 'G', 'I', 'E', 'C', 'M']
+Removing H from stack as it no longer has anymore neighbors that aren't visited already 
+ Current stack: ['A', 'F']
+Current List of Visited Nodes in order: ['A', 'B', 'J', 'K', 'N', 'O', 'Q', 'R', 'U', 'V', 'W', 'X', 'S', 'T', 'P', 'L', 'Z', 'Y', 'F', 'D', 'H', 'G', 'I', 'E', 'C', 'M']
+Removing F from stack as it no longer has anymore neighbors that aren't visited already 
+ Current stack: ['A']
+Current List of Visited Nodes in order: ['A', 'B', 'J', 'K', 'N', 'O', 'Q', 'R', 'U', 'V', 'W', 'X', 'S', 'T', 'P', 'L', 'Z', 'Y', 'F', 'D', 'H', 'G', 'I', 'E', 'C', 'M']
+Removing A from stack as it no longer has anymore neighbors that aren't visited already 
+ Current stack: []
+Current List of Visited Nodes in order: ['A', 'B', 'J', 'K', 'N', 'O', 'Q', 'R', 'U', 'V', 'W', 'X', 'S', 'T', 'P', 'L', 'Z', 'Y', 'F', 'D', 'H', 'G', 'I', 'E', 'C', 'M']
